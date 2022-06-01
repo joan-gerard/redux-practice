@@ -1,0 +1,4 @@
+.userCard {
+    border: 1px solid black;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 13%), 0 1px 2px rgb(0 0 0 / 13%);
+}

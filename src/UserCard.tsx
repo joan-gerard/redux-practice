@@ -1,4 +1,5 @@
 import React from 'react'
+import './UserCard.css'
 import { UserType } from './interface'
 
 type Props = {
@@ -7,7 +8,7 @@ type Props = {
 
 const UserCard: React.FC<Props> = ({user}) => {
   return (
-    <div>
+    <div className='userCard'>
         <h2>{user.name}</h2>
         <p>{user.username}</p>
     </div>
