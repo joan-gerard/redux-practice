@@ -21,8 +21,9 @@ function App() {
           type="text"
           placeholder="name..."
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-            setName(e.target.value);
+            setName(e.target.value)
           }}
+          value={name}
         />
         <input
           type="text"
@@ -30,6 +31,7 @@ function App() {
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
             setUsername(e.target.value);
           }}
+          value={username}
         />
         <button
           onClick={() => {
@@ -40,6 +42,8 @@ function App() {
                 username,
               })
             );
+            setName('');
+            setUsername('')
           }}
         >
           Add User

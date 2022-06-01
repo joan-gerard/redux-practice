@@ -9,7 +9,10 @@
 .displayUser {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  grid-gap: 0.6em;
-  padding: 1em;
+  grid-gap: 2.5em;
+  padding: 5em;
+  align-self: center;
+  justify-items: center;
+  align-items: center;
 }
 
